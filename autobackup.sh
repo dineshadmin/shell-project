@@ -25,7 +25,7 @@ if [ $? -ne 0 ]; then
 fi
 
 
-sudo $MYSQLDUMP -h $HOST -u $MYSQL_USER -p$MYSQL_PASSWORD  $DB > $tmp_file
-sudo mv $tmp_file  $BACKUP_DIR/$DB-$TIMESTAMP2.sql
+#sudo $MYSQLDUMP -h $HOST -u $MYSQL_USER -p$MYSQL_PASSWORD  $DB > $tmp_file
+#sudo mv $tmp_file  $BACKUP_DIR/$DB-$TIMESTAMP2.sql
 
 
